@@ -11,14 +11,14 @@ class Avo::Resources::Hour < Avo::BaseResource
       as: :time,
       relative: true,
       timezone: "Europe/Berlin",
-      format: "%H:%M",
+      format: "HH:mm",
       picker_options: { time_24hr: true }
 
     field :end,
       as: :time,
       relative: true,
       timezone: "Europe/Berlin",
-      format: "%H:%M",
+      format: "HH:mm",
       picker_options: { time_24hr: true }
   end
 end
